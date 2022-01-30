@@ -2,9 +2,9 @@
 
     Responsive React Movies App With API
 
-# Video tutorial
+# Clone this project
 
-    https://youtu.be/ntYXj9W1Ez8
+    git clone https://github.com/phamthanhlonglhpnd/netflix
 
 # Resource
 
