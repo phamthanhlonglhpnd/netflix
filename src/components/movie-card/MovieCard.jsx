@@ -12,7 +12,9 @@ import apiConfig from '../../api/apiConfig';
 const MovieCard = props => {
 
     const item  = props.item;
+    console.log(item);
     const link = '/' + category[props.category] + '/' + item.id;
+    console.log(link);
 
     const bg = apiConfig.w500Image(item.poster_path || item.backdrop_path);
 
