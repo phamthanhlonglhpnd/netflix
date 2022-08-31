@@ -17,6 +17,7 @@ const MovieGrid = props => {
     const [totalPage, setTotalPage] = useState(0);
 
     const { keyword } = useParams();
+    console.log(keyword);
 
     useEffect(() => {
         const getList = async () => {
